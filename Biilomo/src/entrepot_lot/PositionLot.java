@@ -47,7 +47,7 @@ public class PositionLot {
 	}
 	
 	/**
-	 * Retourne une description textuelle de l'objet
+	 * Retourne une description textuelle de l'objet PositionLot
 	 * @see java.lang.Object#toString()
 	 */
 	
