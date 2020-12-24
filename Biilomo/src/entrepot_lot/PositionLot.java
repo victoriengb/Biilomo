@@ -18,12 +18,29 @@ public class PositionLot {
 	private int ordonnee;
 	
 	/**
-	 * Constructeur de la classe PositionLot
+	 * Constructeur par défaut de la classe PositionLot (affecte des coordonnées inexistantes)
+	 */
+	public PositionLot() {
+		this.abscisse= -1;
+		this.ordonnee= -1;
+	}
+	/**
+	 * Constructeur paramétré de la classe PositionLot
 	 * @param abscisse
 	 * @param ordonne
 	 * 
 	 */
 	public PositionLot(int abscisse, int ordonnee) {
+		this.abscisse= abscisse;
+		this.ordonnee= ordonnee;
+	}
+	
+	/**
+	 * Permet de modifier la position de l'objet
+	 * @param abscisse
+	 * @param ordonnee
+	 */
+	public void setPosition(int abscisse, int ordonnee) {
 		this.abscisse= abscisse;
 		this.ordonnee= ordonnee;
 	}
