@@ -36,6 +36,22 @@ public class PositionLot {
 	}
 	
 	/**
+	 * Renvoie l'abscisse
+	 * @return int
+	 */
+	public int getAbscisse() {
+		return this.abscisse;
+	}
+	
+	/**
+	 * Renvoie l'ordonnée
+	 * @return int
+	 */
+	public int getOrdonnee() {
+		return this.ordonnee;
+	}
+	
+	/**
 	 * Permet de modifier la position de l'objet
 	 * @param abscisse
 	 * @param ordonnee
