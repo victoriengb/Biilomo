@@ -53,6 +53,14 @@ public class EspaceOccuppeLot {
 		this.placeOccuppeDroite= placeOccuppeDroite;
 	}
 	
+	public void decrementerPlaceOccuppeGauche(int volume) {
+		this.placeOccuppeGauche-= volume;
+	}
+	
+	public void decrementerPlaceOccuppeDroite(int volume) {
+		this.placeOccuppeDroite-= volume;
+	}
+	
 	/**
 	 * Retourne une description textuelle des objets EspaceOccuppeLot
 	 * @see java.lang.Object#toString()
