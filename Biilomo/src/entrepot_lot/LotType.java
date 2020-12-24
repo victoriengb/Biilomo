@@ -30,6 +30,22 @@ public abstract class LotType {
 	}
 	
 	/**
+	 * Renvoie la pièece contenu dans un lot
+	 * @return {@link Piece}
+	 */
+	public Piece getPiece() {
+		return this.piece;
+	}
+	
+	/**
+	 * Renvoie le volume d'un lot
+	 * @return int
+	 */
+	public int getVolume() {
+		return this.volume;
+	}
+	
+	/**
 	 * Permet de retirer un certain volume de pièces d'un lot
 	 * @param volume
 	 */
