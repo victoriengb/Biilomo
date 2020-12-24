@@ -8,7 +8,7 @@ package entrepot_lot;
 public class PositionLot {
 	
 	/**
-	 * indique la case à partir de laquelle est stocké le lot
+	 * indique la case à partir de laquelle est stocké le lot (la case la plus à gauche)
 	 */
 	private int abscisse;
 	
