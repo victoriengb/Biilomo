@@ -10,12 +10,12 @@ public class PositionLot {
 	/**
 	 * indique la case à partir de laquelle est stocké le lot (la case la plus à gauche)
 	 */
-	private int abscisse;
+	private Integer abscisse;
 	
 	/**
 	 * indique la rangée où est stocké le lot
 	 */
-	private int ordonnee;
+	private Integer ordonnee;
 	
 	/**
 	 * Constructeur par défaut de la classe PositionLot (affecte des coordonnées inexistantes)
@@ -37,17 +37,17 @@ public class PositionLot {
 	
 	/**
 	 * Renvoie l'abscisse
-	 * @return int
+	 * @return {@link Integer}
 	 */
-	public int getAbscisse() {
+	public Integer getAbscisse() {
 		return this.abscisse;
 	}
 	
 	/**
 	 * Renvoie l'ordonnée
-	 * @return int
+	 * @return {@link Integer}
 	 */
-	public int getOrdonnee() {
+	public Integer getOrdonnee() {
 		return this.ordonnee;
 	}
 	
