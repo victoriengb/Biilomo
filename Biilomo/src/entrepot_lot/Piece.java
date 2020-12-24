@@ -63,6 +63,30 @@ public class Piece {
 	}
 	
 	/**
+	 * Renvoie le Nom d'une pièce
+	 * @return {@link NomPiece}
+	 */
+	public NomPiece getNomPiece() {
+		return this.nomPiece;
+	}
+	
+	/**
+	 * Renvoie le prix d'un paquet de Pièces
+	 * @return double
+	 */
+	public double getPrix() {
+		return this.prix;
+	}
+	
+	/**
+	 * Renvoie le poids d'un paquet de pièces
+	 * @return double
+	 */
+	public double getPoids() {
+		return this.poids;
+	}
+	
+	/**
 	 * Retourne une description textuelle des objets Piece
 	 * @see java.lang.Object#toString()
 	 * 
