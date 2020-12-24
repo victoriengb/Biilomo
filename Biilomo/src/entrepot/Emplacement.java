@@ -11,7 +11,7 @@ public class Emplacement {
 	/**
 	 * Indique la disponibilité d'un emplacement
 	 */
-	private boolean isDisponible;
+	private Boolean isDisponible;
 	
 	/**
 	 * Constructeur par défaut de la classe Emplacement
@@ -27,9 +27,9 @@ public class Emplacement {
 	
 	/**
 	 * Retourne l'attribut isDiponible
-	 * @return boolean
+	 * @return {@link Boolean}
 	 */
-	public boolean getIsDisponible() {
+	public Boolean getIsDisponible() {
 		return this.isDisponible;
 	}
 	
