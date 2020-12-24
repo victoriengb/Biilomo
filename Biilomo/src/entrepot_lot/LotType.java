@@ -12,7 +12,7 @@ public abstract class LotType {
 	/**
 	 * Volume d'un lot en mèetre cube (N.B: le volume est également le nombre de paquet de Pieces contenu dans le lot)
 	 */
-	protected int volume;
+	protected Integer volume;
 	
 	/**
 	 * Type de Pièce contenu dans le lot
@@ -24,7 +24,7 @@ public abstract class LotType {
 	 * @param volume
 	 * @param piece
 	 */
-	public LotType(int volume, Piece piece) {
+	public LotType(Integer volume, Piece piece) {
 		this.volume= volume;
 		this.piece= piece;
 	}
@@ -41,7 +41,7 @@ public abstract class LotType {
 	 * Renvoie le volume d'un lot
 	 * @return int
 	 */
-	public int getVolume() {
+	public Integer getVolume() {
 		return this.volume;
 	}
 	
